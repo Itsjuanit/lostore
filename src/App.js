@@ -6,6 +6,7 @@ function App() {
    
       <>
       <NavBar />
+      <h1>SOY UNA TIENDA</h1>
       </>
    
   );
