@@ -1,0 +1,7 @@
+{
+  "userTabs": true,
+  "singleQuote": false,
+  "jsxSingleQuote": false,
+  "trailingComma": "es5",
+  "arrowParens": "always"
+}

@@ -1,10 +1,17 @@
-import React from 'react'
-import { NavBarContainer, NavBarWrapper, IconLogo, Menu, MenuItem, MenuItemLink } from './NavBar.elements'
+import React from "react";
+import {
+  NavBarContainer,
+  NavBarWrapper,
+  IconLogo,
+  Menu,
+  MenuItem,
+  MenuItemLink,
+} from "./NavBar.elements";
 import { FaStore } from "react-icons/fa";
 
 const NavBar = () => {
   return (
-    <NavBarContainer >
+    <NavBarContainer>
       <NavBarWrapper>
         <IconLogo>
           <FaStore size={"2em"} />
@@ -23,7 +30,7 @@ const NavBar = () => {
         </Menu>
       </NavBarWrapper>
     </NavBarContainer>
-  )
-}
+  );
+};
 
-export default NavBar
+export default NavBar;
