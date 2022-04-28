@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
+ <img width=200px height=200px src="https://drive.google.com/file/d/1rioeDeF-6P2cV8yRaWwq6zj2Tepu7EAg/view?usp=sharing" alt="LOSTORE logo"></a>
 </p>
 
 <h3 align="center">LOSTORE TIENDA DE INFORMÁTICA</h3>
