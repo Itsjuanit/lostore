@@ -1,11 +1,11 @@
-import React from "react";
 import NavBar from "./Components/NavBar/NavBar";
+import ItemListCointainer from "./Components/Item/ItemListCointainer";
 
 function App() {
   return (
     <>
       <NavBar />
-      <h1>SOY UNA TIENDA</h1>
+      <ItemListCointainer greeting="BIENVENIDOS A NUESTRA TIENDA" />
     </>
   );
 }

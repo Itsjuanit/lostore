@@ -5,11 +5,10 @@ module.exports = {
   },
   settings: {
     react: {
-      version: 'detect',
-    }
+      version: "detect",
+    },
   },
   extends: [
-    "standard",
     "plugin:react/recommended",
     "plugin:react/jsx-runtime",
     "eslint-config-prettier",
@@ -24,5 +23,6 @@ module.exports = {
   plugins: ["react"],
   rules: {
     "no-unused-vars": "warn",
+    "react/prop-types": "off",
   },
 };

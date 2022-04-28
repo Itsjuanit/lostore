@@ -1,4 +1,3 @@
-import React from "react";
 import {
   NavBarContainer,
   NavBarWrapper,
@@ -7,6 +6,7 @@ import {
   MenuItem,
   MenuItemLink,
 } from "./NavBar.elements";
+import Cart from "./Cart/Cart";
 import { FaStore } from "react-icons/fa";
 
 const NavBar = () => {
@@ -25,7 +25,7 @@ const NavBar = () => {
             <MenuItemLink href="AboutUs">SOBRE NOSOTROS</MenuItemLink>
           </MenuItem>
           <MenuItem>
-            <MenuItemLink href="Contact">CONTACTO</MenuItemLink>
+            <Cart href="Cart"></Cart>
           </MenuItem>
         </Menu>
       </NavBarWrapper>
