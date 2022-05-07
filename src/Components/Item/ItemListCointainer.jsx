@@ -1,7 +1,13 @@
 import { ItemListCointainerH1 } from "./ItemListContainer.elements";
-function ItemListCointainer(props) {
-  return <ItemListCointainerH1>{props.greeting}</ItemListCointainerH1>;
-  
-}
+import ItemCounter from "../Counter/ItemCounter";
+
+const ItemListCointainer = ({ greeting }) => {
+  return (
+    <ItemListCointainerH1>
+      {greeting}
+      <ItemCounter stock="15" initial="2" />
+    </ItemListCointainerH1>
+  );
+};
 
 export default ItemListCointainer;
