@@ -1,13 +1,32 @@
-import { ItemListCointainerH1 } from "./ItemListContainer.elements";
-import ItemCounter from "../Counter/ItemCounter";
+import { ItemListCointainerDiv } from "./ItemListContainer.elements";
+import { useEffect, useState } from "react";
+import misItems from "../../data/items.json";
+import ItemList from "./ItemList";
 
-const ItemListCointainer = ({ greeting }) => {
+const ItemListContainer = ({}) => {
+  const [items, setItems] = useState([]);
+
+  const pedidoItems = new Promise((resolve) => {
+    setTimeout(() => {
+      resolve(misItems);
+    }, 2000);
+  });
+
+  useEffect(() => {
+    pedidoItems
+      .then((res) => {
+        setItems(res);
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  }, []);
+
   return (
-    <ItemListCointainerH1>
-      {greeting}
-      <ItemCounter stock="15" initial="2" />
-    </ItemListCointainerH1>
+    <ItemListCointainerDiv>
+      <ItemList arrayDeItems={items} />
+    </ItemListCointainerDiv>
   );
 };
 
-export default ItemListCointainer;
+export default ItemListContainer;
