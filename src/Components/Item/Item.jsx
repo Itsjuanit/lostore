@@ -4,13 +4,17 @@ import {
   ListBoxTitle,
   ListBoxPrice,
 } from "./Item.elements";
+import { Link } from "react-router-dom";
+
 const Item = ({ item }) => {
   return (
-    <ListBox>
-      <ListBoxImg src={item.img} alt="Imagen" />
-      <ListBoxTitle>{item.title}</ListBoxTitle>
-      <ListBoxPrice>${item.price}</ListBoxPrice>
-    </ListBox>
+    <Link to={`/category/${item.category}`}>
+      <ListBox>
+        <ListBoxImg src={item.image} alt="Imagen" />
+        <ListBoxTitle>{item.title}</ListBoxTitle>
+        <ListBoxPrice>${item.price}</ListBoxPrice>
+      </ListBox>
+    </Link>
   );
 };
 

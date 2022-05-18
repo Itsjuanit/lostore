@@ -1,6 +1,7 @@
 [
   {
     "id": "1",
+    "categoryId": 1,
     "img": "https://http2.mlstatic.com/D_NQ_NP_878981-MLA48808509840_012022-V.webp",
     "title": "Notebook EXO Smart P33 gris 14.1\", Intel Celeron N4020 4GB de RAM 64GB SSD, Intel UHD Graphics 600 1920x1080px Windows 11 Home",
     "price": "71.999",
@@ -8,6 +9,7 @@
   },
   {
     "id": "2",
+    "categoryId": 2,
     "img": "https://http2.mlstatic.com/D_NQ_NP_717043-MLA48644116183_122021-V.webp",
     "title": "Notebook HP 15-dw1080la negra azabache 15.6\", Intel Celeron N4020 4GB de RAM 1TB HDD, Intel UHD Graphics 600 1366x768px Windows 10 Home",
     "price": "51.999",
@@ -15,6 +17,7 @@
   },
   {
     "id": "3",
+    "categoryId": 3,
     "img": "https://http2.mlstatic.com/D_NQ_NP_742268-MLA48061903696_102021-V.webp",
     "title": "Notebook Asus X515EA gris 15.6\", Intel Core i5 1135G7 8GB de RAM 256GB SSD, Intel Iris Xe Graphics G7 80EUs 1920x1080px Windows 10",
     "price": "89.999",

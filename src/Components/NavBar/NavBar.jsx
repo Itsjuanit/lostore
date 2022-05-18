@@ -8,6 +8,7 @@ import {
 } from "./NavBar.elements";
 import Cart from "./Cart/Cart";
 import { FaStore } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
@@ -15,7 +16,9 @@ const NavBar = () => {
       <NavBarWrapper>
         <IconLogo>
           <FaStore size={"2em"} />
-          <h1> LOSTORE</h1>
+          <Link to={"/"}>
+            <span> LOSTORE</span>
+          </Link>
         </IconLogo>
         <Menu>
           <MenuItem>
